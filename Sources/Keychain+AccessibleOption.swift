@@ -31,8 +31,8 @@ extension Keychain {
         private enum Constants {
             static let afterFirstUnlock = kSecAttrAccessibleAfterFirstUnlock.stringValue
             static let afterFirstUnlockThisDeviceOnly = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly.stringValue
-            static let always = kSecAttrAccessibleAlways.stringValue
-            static let alwaysThisDeviceOnly = kSecAttrAccessibleAlwaysThisDeviceOnly.stringValue
+            static let always = kSecAttrAccessibleAfterFirstUnlock.stringValue
+            static let alwaysThisDeviceOnly = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly.stringValue
             static let whenPasscodeSetThisDeviceOnly = kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly.stringValue
             static let whenUnlocked = kSecAttrAccessibleWhenUnlocked.stringValue
             static let whenUnlockedThisDeviceOnly = kSecAttrAccessibleWhenUnlockedThisDeviceOnly.stringValue

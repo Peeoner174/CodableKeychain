@@ -8,7 +8,7 @@ CodableKeychain is a Swift framework for saving objects conforming to the `Codab
 
 ## Features
 
-- iOS 8.0+, macOS 10.10+, tvOS 9.0+, watchOS 2.0+
+- iOS 11.0+, macOS 10.10+, tvOS 9.0+, watchOS 2.0+
 - 100% Test Coverage
 - Easily store any object conforming to `Codable`
 - Specify item accessibility using a Swift enum (see `Keychain.AccessibleOption`)
@@ -149,7 +149,7 @@ install CodableKeychain with Carthage:
 2. Add CodableKeychain to your Cartfile:
 
 ```
-github "toddkramer/CodableKeychain" ~> 1.0.0
+github "toddkramer/CodableKeychain" ~> 1.0.1
 ```
 
 3. Run `carthage update` and [add the appropriate framework][Carthage Usage].
